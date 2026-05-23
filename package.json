@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "test:260523": "slidev --open slides/20260523.md",
     "dev:260126": "slidev --open slides/20260126.md",
     "dev:251104": "slidev --open slides/20251104.md",
     "dev:250930": "slidev --open slides/20250930.md",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "@slidev/cli": "latest",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "latest",
+    "lucide-vue-next": "^1.0.0"
   }
 }
